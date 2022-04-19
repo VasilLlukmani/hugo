@@ -5,7 +5,7 @@
     <ul>
     {{ range .Pages.ByPublishDate }} 
         <li>
-            <a href=" {{ .RelPermalink }}">{{ .Title}}<span class="comment">// {{ .Date.Format "2006-01-02" }}</span></a>
+            <a href=" /hugo/{{ .RelPermalink }}">{{ .Title}}<span class="comment">// {{ .Date.Format "2006-01-02" }}</span></a>
         </li>
     {{ end }}
     </ul>   
