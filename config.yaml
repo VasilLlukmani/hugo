@@ -20,7 +20,7 @@ disableSitemap: false
 disable404: false
 disableHugoGeneratorInject: true
 permalinks:
-  posts: '/posts/:filename/'
+  posts: '/hugo/posts/:filename/'
 markup:
   goldmark:
     renderer:
