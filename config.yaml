@@ -1,0 +1,60 @@
+baseURL: /
+relativeURLs: true
+languageCode: en-us
+title: My New Hugo Site
+archetypeDir: archetypes
+contentDir: content
+dataDir: data
+layoutDir: layouts
+publishDir: public
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+canonifyURLs: true
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+enableMissingTranslationPlaceholders: true
+disableRSS: false
+disableSitemap: false
+disable404: false
+disableHugoGeneratorInject: true
+permalinks:
+  posts: '/posts/:filename/'
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      definitionList: true
+      footnote: true
+params:
+  test: "sadasdasd"
+  social:
+    - name: github
+      url: 'https://github.com/orgs/dexiio/repositories'
+      icon: github
+    - name: linkedin
+      url: 'https://www.linkedin.com/company/dexi.io/mycompany/'
+      icon: in
+    - name: facebook
+      url: 'https://www.facebook.com/dexi.io/'
+      icon: fb
+    - name: twitter
+      url: 'https://twitter.com/dexi_io?lang=en'
+      icon: twitter
+privacy:
+  instagram:
+    disable: false
+    simple: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: true
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true

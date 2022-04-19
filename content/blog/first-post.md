@@ -8,4 +8,3 @@ slug: first-post
 
 
 First post
-

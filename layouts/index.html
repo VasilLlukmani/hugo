@@ -1,7 +1,11 @@
 {{ define "main" }}
 
-
-
+{{ .Site.BaseURL }}
+{{- with .Site.Params.social }}
+{{ range . -}}
+{{ .url }}
+{{- end -}}
+{{- end }}
 content for homepage
 
 

@@ -1,0 +1,60 @@
+
+      <!-- FOOTER-SECTION -->
+      <tr style="background-color: transparent">
+        <td
+          height="15px"
+          style="background-color: hsla(159, 74%, 59%, 0)"
+        ></td>
+      </tr>
+
+      <tr>
+        <td style="padding: 44px 0 14px">
+          <table width="100%">
+            <tr style="padding-bottom: 10px">
+              <td class="center-logo socials">
+                {{ range . -}}
+                <a style="text-decoration: none;" href="{{ .url }}">
+                    <img
+                        src="/img/{{ .icon}}.png"
+                        alt="{{ .name }}"
+                        width="25px"
+                        title="{{ .name }}"/>
+                
+                </a>
+                {{- end -}}
+            
+               
+
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  text-align: center;
+                  color: #287e9b;
+                  font-weight: 300;
+                  line-height: 24px;
+                "
+              >
+                <p>
+                  1850 W Ashton Blvd | STE 500<br />
+                  Lehi, UT 84043
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: #00547a;
+                    font-weight: 600;
+                  "
+                  >Unsubscribe</a
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>

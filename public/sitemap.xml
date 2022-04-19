@@ -2,10 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vasilllukmani.github.io/hugo/categories/</loc>
+    <loc>/newsletter/april/</loc>
+    <lastmod>2022-04-12T15:40:48+02:00</lastmod>
   </url><url>
-    <loc>https://vasilllukmani.github.io/hugo/</loc>
+    <loc>/</loc>
+    <lastmod>2022-04-12T16:26:02+02:00</lastmod>
   </url><url>
-    <loc>https://vasilllukmani.github.io/hugo/tags/</loc>
+    <loc>/about/</loc>
+    <lastmod>2022-04-12T16:26:02+02:00</lastmod>
+  </url><url>
+    <loc>/blog/</loc>
+    <lastmod>2022-04-12T16:26:02+02:00</lastmod>
+  </url><url>
+    <loc>/newsletter/</loc>
+    <lastmod>2022-04-12T14:45:07+02:00</lastmod>
+  </url><url>
+    <loc>/blog/first-post/</loc>
+    <lastmod>2022-04-12T16:26:02+02:00</lastmod>
+  </url><url>
+    <loc>/newsletter/march/</loc>
+    <lastmod>2022-03-12T15:40:48+02:00</lastmod>
+  </url><url>
+    <loc>/blog/second-post/</loc>
+    <lastmod>2022-04-12T16:26:02+02:00</lastmod>
+  </url><url>
+    <loc>/newsletter/february/</loc>
+    <lastmod>2022-02-12T15:40:48+02:00</lastmod>
+  </url><url>
+    <loc>/blog/test-post/</loc>
+    <lastmod>2022-04-12T16:26:02+02:00</lastmod>
+  </url><url>
+    <loc>/newsletter/january/</loc>
+    <lastmod>2022-01-12T15:40:48+02:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>

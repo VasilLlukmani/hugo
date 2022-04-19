@@ -1,0 +1,320 @@
+{{ define "main" }}
+
+
+<center class="wrapper">
+    <table class="main" width="100%">
+      {{ partial "mailheader.html" . }}
+      <!--  TEXT SECTION-1 -->
+
+      <tr>
+        <td style="padding: 40px 60px 40px">
+          
+          <p
+            style="
+              font-size: 18px;
+              font-weight: 300;
+              color: #003d59;
+              line-height: 22px;
+            "
+          >
+            {{ .Params.Entrytext }}
+          </p>
+         
+        </td>
+      </tr>
+      <!-- IMAGE-RIGHT-SECTION-1 -->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td class="two-columns">
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <img src="/img/{{ .Params.Section1.Image }}.png" alt="Pricing" />
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <p
+                              style="
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 18px;
+                                color: #49e4ad;
+                              "
+                            >
+                              {{ .Params.Section1.Title }}
+                            </p>
+                            <p
+                              style="
+                                font-size: 18px;
+                                font-weight: 300;
+                                color: #003d59;
+                                line-height: 18px;
+                              "
+                            >
+                            {{ .Params.Section1.Content }}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- IMAGE-RIGHT-SECTION-2 -->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td class="two-columns">
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <img
+                              src="/img/{{ .Params.Section2.Image }}.png"
+                              width="250"
+                              alt=""
+                            />
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <p
+                              style="
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 18px;
+                                color: #49e4ad;
+                              "
+                            >              
+                            {{ .Params.Section2.Title }}
+                            </p>
+                            <p
+                              style="
+                                font-size: 18px;
+                                font-weight: 300;
+                                color: #003d59;
+                                line-height: 18px;
+                              "
+                            >
+                            {{ .Params.Section2.Content }}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- IMAGE-RIGHT-SECTION-3 -->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td class="two-columns">
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <img
+                              src="/img/{{ .Params.Section3.Image }}.png"
+                              width="250"
+                              alt=""
+                            />
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <p
+                              style="
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 18px;
+                                color: #49e4ad;
+                              "
+                            >
+                            {{ .Params.Section3.Title }}
+                            </p>
+                            <p
+                              style="
+                                font-size: 18px;
+                                font-weight: 300;
+                                color: #003d59;
+                                line-height: 18px;
+                              "
+                            >
+                            {{ .Params.Section3.Content }}
+
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="padding"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!--  TEXT SECTION -->
+
+      <tr>
+        <td style="padding: 0px 60px 40px">
+          <p
+            style="
+              font-size: 18px;
+              font-weight: 300;
+              color: #003d59;
+              line-height: 22px;
+            "
+          >
+          {{ .Params.Schedule.Normaltext }}<br /><b>{{ .Params.Schedule.Boldtext }}</b>
+          </p>
+          <a href="{{ .Params.Schedule.Link.Url }}" style="color: #4285f4; font-size: 18px">
+            <b>{{ .Params.Schedule.Link.Title }} ></b></a
+          >
+        </td>
+      </tr>
+
+      <!-- CTA SECTION -->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td style="padding: 40px 60px 0px">
+                <table width="100%">
+                  <tr>
+                    <td
+                      height="110px"
+                      class="cta"
+                      style="
+                        background-image: url(/img/{{ .Params.Calltoaction.image }}.png);
+                        background-size: 100% 100%;"
+                    >
+                      <p
+                        style="
+                          color: #25e4ae;
+                          font-size: 28px;
+                          text-align: center;
+                          letter-spacing: 4.5px;
+                        "
+                      >
+                     <b>{{ with .Params.Calltoaction.Title }} {{ .name1 | upper }}{{ end }}<span style="color: #fff;">{{ with .Params.Calltoaction.Title }}{{ .name2 | upper }} {{ end }}</span></b>
+                      {{ with .Params.Calltoaction.Title }} {{ .name3 | upper }} {{ end }}{{ with .Params.Calltoaction.Title }} {{ .name4 | upper }} {{ end }}
+                
+
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+       <!--  TEXT SECTION -->
+
+       <tr>
+        <td style="padding: 40px 60px 60px">
+          <p
+          style="
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 18px;
+            color: #49e4ad;
+          "
+        >
+      {{ .Params.Register.Title }}
+        </p>
+          <p
+            style="
+              font-size: 18px;
+              font-weight: 300;
+              color: #003d59;
+              line-height: 22px;
+            "
+          >
+          {{ .Params.Register.Description }}
+          </p>
+          <a href="{{ .Params.Register.Link.Url }}" style="color: #4285f4; font-size: 18px">
+            <b>{{ .Params.Register.Link.Title }} ></b></a
+          >
+        </td>
+      </tr>
+ 
+      {{- with .Site.Params.social }}
+      {{ partial "mailfooter.html" . }}
+      {{- end }}
+  
+    </table>
+  </center>
+
+
+
+{{ end }}
