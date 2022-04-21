@@ -1,21 +1,22 @@
 {{ define "main" }}
 
 <section class="recent-articles">
-    {{ $taxo := "newsletter" }}
-    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-    <h1> {{ .Title }}</h1>
-    <ul>
-    
-    
-    {{ range .Pages.ByPublishDate }} 
-        <li>
-            <a href=" {{ .RelPermalink }}">{{ .Title}}<span class="comment">// {{ .Date.Format "2006-01-02" }}</span></a>
-        </li>
-    {{ end }}
-    {{ end }}
-    </ul>   
-</section>  
+  {{ $taxo := "newsletter" }} {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+  <h1>{{ .Title }}</h1>
+  <div class="row">
+    {{ range .Pages.ByPublishDate }}
 
+    <div class="col-sm-4">
+      <a href=" {{ .RelPermalink }}"
+        >{{ .Title}}<span class="comment"
+          >// {{ .Date.Format "2006-01-02" }}</span
+        ></a
+      >
+    </div>
 
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
 
 {{ end }}
