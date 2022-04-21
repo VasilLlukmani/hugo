@@ -1,10 +1,7 @@
 ---
-title: "First_post"
-date: 2022-03-12T15:40:48+02:00
-draft: false
+title: First_post
+date: 2022-03-12T13:40:48+00:00
 slug: first-post
+
 ---
-
-
-
-First post
+Hello world
