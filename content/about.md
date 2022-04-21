@@ -1,11 +1,9 @@
 ---
-title: "About"
-date: 2022-04-12T14:45:07+02:00
-draft: false
+title: About
+date: 2022-04-12T14:45:07.000+02:00
 type: about
 
 ---
+\#About
 
-#About
-
-content
+some content here
